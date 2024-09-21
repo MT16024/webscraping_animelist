@@ -1,5 +1,5 @@
 # webscraping_animelist
-Dự án này là một công cụ thu thập dữ liệu anime từ web, được xây dựng bằng Python sử dụng các thư viện như BeautifulSoup và Requests. Công cụ này trích xuất và tổng hợp dữ liệu từ nhiều trang web anime, tạo ra một cơ sở dữ liệu anime toàn diện và cập nhật, phục vụ cho phân tích, sưu tầm, hoặc gợi ý anime.
+Dự án này là một công cụ thu thập dữ liệu anime từ web, được xây dựng bằng Python sử dụng các thư viện như BeautifulSoup và Requests. Công cụ này trích xuất và tổng hợp dữ liệu từ các website như MyAnimeList, để tạo ra một cơ sở dữ liệu, phục vụ cho phân tích, sưu tầm, hoặc gợi ý anime.
 
 # Kết quả minh hoạ
 <img width="701" alt="minhhoa" src="https://github.com/user-attachments/assets/9e0056a7-633d-43c2-99cf-6bff3abbbab2">
