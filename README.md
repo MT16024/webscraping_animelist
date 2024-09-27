@@ -1,19 +1,19 @@
-# webscraping_animelist
-Dự án này là một công cụ thu thập dữ liệu anime từ web, được xây dựng bằng Python sử dụng các thư viện như BeautifulSoup và Requests. Công cụ này trích xuất và tổng hợp dữ liệu từ các website như MyAnimeList, để tạo ra một cơ sở dữ liệu, phục vụ cho phân tích, sưu tầm, hoặc gợi ý anime.
+# Webscraping_animelist
+This project is a tool for collecting anime data the Myanimelist website, built with Python using libraries like BeautifulSoup and Requests. This tool extracts and aggregates data from websites such as MyAnimeList to create a database for analysis, collection, or anime recommendations.
 
-# Kết quả minh hoạ
+# Sample Result
 <img width="701" alt="minhhoa" src="https://github.com/user-attachments/assets/9e0056a7-633d-43c2-99cf-6bff3abbbab2">
 
 
-# Tính năng
-* Trích xuất dữ liệu Anime: Thu thập các thông tin như tên anime, thể loại, đánh giá, tóm tắt nội dung, số tập, và ngày phát hành.
-* Hỗ trợ nhiều trang web: Tương thích với nhiều trang web anime phổ biến, đảm bảo cơ sở dữ liệu đa dạng và phong phú.
-* Tùy chỉnh thu thập dữ liệu: Cho phép người dùng chỉ định loại dữ liệu cần thu thập và từ trang web nào.
-* Lưu trữ dữ liệu: Lưu trữ dữ liệu đã trích xuất vào các định dạng có cấu trúc như CSV hoặc JSON để dễ dàng truy cập và phân tích thêm.
-* Xử lý lỗi: Áp dụng các cơ chế xử lý lỗi mạnh mẽ để quản lý các vấn đề như trang web không hoạt động, thay đổi cấu trúc trang web, và lỗi kết nối.
+# Features
+* Anime Data Extraction: Collects information such as anime titles, genres, ratings, summaries, episode counts, and release dates.
+* Support for Multiple Websites: Compatible with various popular anime websites, ensuring a diverse and rich database.
+* Customizable Data Collection: Allows users to specify the type of data to collect and from which website.
+* Data Storage: Stores extracted data in structured formats like CSV or JSON for easy access and further analysis.
+* Error Handling: Implements robust error handling mechanisms to manage issues such as website downtime, structural changes, and connection errors.
 
-# Cài đặt
-Để sử dụng công cụ này, bạn cần cài đặt Python trên máy tính của mình. Clone repository và cài đặt các thư viện cần thiết:
+# Installation
+To use this tool, you need to have Python installed on your computer. Clone the repository and install the required libraries:
 
 ```ruby
 bash
@@ -23,13 +23,13 @@ cd webscraping_animelist
 pip install -r requirements.txt
 ```
 
-LƯU Ý: File requirements.txt bao gồm các thư viện sau:
-* beautifulsoup4 (còn gọi là bs4): Được sử dụng để phân tích và xử lý cú pháp HTML.
-* requests: Dùng để gửi các yêu cầu HTTP đến các trang web.
-* openpyxl: Hỗ trợ làm việc với file Excel (.xlsx), giúp lưu trữ dữ liệu dưới định dạng bảng tính Excel.
+NOTE: The requirements.txt file includes the following libraries:
+* beautifulsoup4 (also known as bs4): Used for parsing and handling HTML syntax.
+* requests: Used to send HTTP requests to websites.
+* openpyxl: Supports working with Excel (.xlsx) files, facilitating data storage in spreadsheet format.
 
-# Sử dụng
-Chạy script với các tùy chọn mong muốn:
+# Usage
+Run the script with the desired options:
 
 ```ruby
 bash
@@ -38,5 +38,11 @@ python main.py --site="trang_web_anime" --output="anime_list.csv"
 Các tùy chọn:
 ```
 
-* site: Chỉ định trang web để thu thập dữ liệu.
-* output: Định nghĩa tên và định dạng file đầu ra (CSV hoặc JSON).
+Options:
+* site: Specify the website to collect data from.
+* output: Define the name and format of the output file (CSV or JSON).
+
+
+
+
+
